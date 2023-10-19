@@ -6,7 +6,7 @@ header:
 ---
 # Jason
 
-- [Documents](http://jason-lang.github.io/jason/doc/)
+- [Documents](http://jason-lang.github.io/doc/)
 
 
 (under development)
