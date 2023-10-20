@@ -10,7 +10,7 @@ _**Jason**_ is an interpreter for an extended version of AgentSpeak. It implemen
 
 
 ## Download
-- [Jason on Github](https://github.com/jason-lang/jason)
+- [Jason on Github](https://github.com/jason-lang/jason/releases)
 
 
 ## Authors
