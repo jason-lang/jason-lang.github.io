@@ -17,5 +17,9 @@ Download the latest version of _**Jason**_ from [Github](https://github.com/jaso
 Documentation, including [API](https://???), [FAQ](https://???), examples, demos, etc. is available on a separate page [here](https://jason-lang.github.io/jason/).
 
 
+## Book
+There is a separate site for the [Jason book](https://sourceforge.net/jBook) published by Wiley.
+
+
 ## Authors
 Jason is developed by [Jomi F. Hübner](https://jomifred.github.io/) and [Rafael H. Bordini](https://www.inf.pucrs.br/r.bordini/), based on previous work done with many colleagues, in particular Michael Fisher, Joyce Martins, Álvaro Moreira, Renata Vieira, Willem Visser, Mike Wooldridge, but also many others.
