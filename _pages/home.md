@@ -18,7 +18,7 @@ Documentation, including [API](https://???), [FAQ](https://???), examples, demos
 
 
 ## Book
-There is a separate site for the [Jason book](https://sourceforge.net/jBook) published by Wiley.
+There is a separate site for the [Jason book](https://jason.sourceforge.net/jBook) published by Wiley.
 
 
 ## Authors
