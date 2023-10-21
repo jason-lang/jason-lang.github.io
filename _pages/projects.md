@@ -3,9 +3,10 @@ title: "Projects"
 layout: single
 permalink: /projects/
 ---
-## Projects
 
-**These are some of the projects contributing, extending, or using _Jason_:**
+**These are some of the current or past projects contributing, extending, or using _Jason_.**
+
+If you know of other projects using or extending _**Jason**_ in any way, please [let us know](https://web.archive.org/web/20230108225506/mailto:jason.developers@gmail.com?subject=Jason%20Website:%20projects%20using%20Jason "mailto:jason.developers@gmail.com?subject=Jason Website: projects using Jason").
 
 *   Inspired by AgentSpeak(L) and _**Jason**_, [LightJason](https://web.archive.org/web/20230108225506/https://lightjason.org/) is a concurrent BDI multi-agent framework for creating multi-agent systems with Java.
 *   Using _**Jason**_ and CArtAgO for distributed control of electric power grids.
@@ -40,5 +41,3 @@ permalink: /projects/
 *   There is an interface between _**Jason**_ and Cartago, available [here](https://web.archive.org/web/20230108225506/http://alice.unibo.it/xwiki/bin/view/CARTAGO/C4Jason "http://alice.unibo.it/xwiki/bin/view/CARTAGO/C4Jason").
 *   J-Moise allows _**Jason**_ agents to use [Moise+](https://web.archive.org/web/20230108225506/http://sourceforge.net/projects/moise "http://sourceforge.net/projects/moise") organisations (available with the _**Jason**_ distribution).
 *   In a _**Jason**_ customisation, the concept of _graded beliefs_ is used to make it possible for agents to handle uncertainty in reasoning and belief revision. More details are available [here](https://web.archive.org/web/20230108225506/https://www.researchgate.net/publication/347963965_Graded_Belief_Revision_for_Jason_A_Rule-Based_Approach).
-
-If you know of other projects using or extending _**Jason**_, please [let us know](https://web.archive.org/web/20230108225506/mailto:jason.developers@gmail.com?subject=Jason%20Website:%20projects%20using%20Jason "mailto:jason.developers@gmail.com?subject=Jason Website: projects using Jason").
