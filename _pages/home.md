@@ -10,7 +10,11 @@ _**Jason**_ is an interpreter for an extended version of AgentSpeak. It implemen
 
 
 ## Download
-- [Jason on Github](https://github.com/jason-lang/jason/releases)
+Download _**Jason**_ from [Github](https://github.com/jason-lang/jason/releases)
+
+
+## Documentation
+Documentation, including API, FAQ, examples, demos, etc. is available on a separate page [here](https://jason-lang.github.io/jason/).
 
 
 ## Authors

@@ -1,9 +1,5 @@
 main:
-  - title: "Documentation"
-    url: /jason/
-  - title: "API"
-    url: /api/
-  - title: "Book"
-    url: http://jason.sourceforge.net/jBook/jBook/Home.html 
   - title: "Teaching"
     url: /teaching/
+  - title: "Projects"
+    url: /projects
