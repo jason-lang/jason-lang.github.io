@@ -6,7 +6,7 @@ permalink: /teaching/
 
 If you are using _**Jason**_ in any under- or post-graduate course, please [let us know](mailto:jason.developers@gmail.com?subject=Jason%20Website:%20courses%20using%20Jason).
 
-These are some of the academic colleagues who have used _**Jason**_ for teaching (in some cases, _**Jason**_ is just one of the recommended languages for implementing multi-agent systems coursework):
+These are some of the academic colleagues who use or have used _**Jason**_ for teaching (in some cases, _**Jason**_ is just one of the recommended languages for implementing multi-agent systems coursework):
 
 - **United Kingdom**
 	- Terry Payne, University of Liverpool

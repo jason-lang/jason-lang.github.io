@@ -4,9 +4,9 @@ layout: single
 permalink: /projects/
 ---
 
-**These are some of the current or past projects contributing, extending, or using _Jason_.**
+If you know of other projects related to _**Jason**_ in any way, please [let us know](mailto:jason.developers@gmail.com?subject=Jason%20Website:%20projects%20using%20Jason).
 
-If you know of other projects using or extending _**Jason**_ in any way, please [let us know](https://web.archive.org/web/20230108225506/mailto:jason.developers@gmail.com?subject=Jason%20Website:%20projects%20using%20Jason "mailto:jason.developers@gmail.com?subject=Jason Website: projects using Jason").
+These are some of the current or past projects contributing, extending, or using _**Jason**_:
 
 *   Inspired by AgentSpeak(L) and _**Jason**_, [LightJason](https://web.archive.org/web/20230108225506/https://lightjason.org/) is a concurrent BDI multi-agent framework for creating multi-agent systems with Java.
 *   Using _**Jason**_ and CArtAgO for distributed control of electric power grids.
