@@ -1,6 +1,6 @@
 ---
 layout: single
-permalink: /jason/
+permalink: /test/
 ---
 
 <html>
