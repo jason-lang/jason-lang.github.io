@@ -1,6 +1,6 @@
 ---
 layout: single
-permalink: /docs/
+permalink: /doc/
 ---
 
 <html>
@@ -36,11 +36,12 @@ function includeHTML() {
 
 <body>
 
-<div w3-include-html="../doc/index.html"></div> 
+<div w3-include-html="https://jason-lang.github.io/jason/"></div> 
+
+</body>
 
 <script>
 includeHTML();
 </script>
 
-</body>
 </html>
