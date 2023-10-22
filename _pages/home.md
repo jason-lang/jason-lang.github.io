@@ -10,16 +10,16 @@ _**Jason**_ is an interpreter for an extended version of AgentSpeak. It implemen
 
 
 ## Download
-Download the latest version of _**Jason**_ from [Github](https://github.com/jason-lang/jason/releases). Older versions or Jason are available on [SourceForge](https://sourceforge.net/projects/jason).
+Download the latest version of _**Jason**_ from [Github](https://github.com/jason-lang/jason/releases){:target="_blank"}. Older versions or _**Jason**_ are available on [SourceForge](https://sourceforge.net/projects/jason){:target="_blank"}.
 
 
-## Documentation
-Documentation, including [API](https://???), [FAQ](https://???), examples, demos, etc. is available on a separate page [here](https://jason-lang.github.io/jason/).
+## API and FAQ
+Check the [API](/api/){:target="_blank"} and the [FAQ](/doc/faq){:target="_blank"} for more details about _**Jason**_.
 
 
 ## Book
-There is a separate site for the [Jason book](https://jason.sourceforge.net/jBook) published by Wiley.
+There is a separate site for the [Jason book](https://jason.sourceforge.net/jBook){:target="_blank"} published by Wiley.
 
 
 ## Authors
-Jason is developed by [Jomi F. Hübner](https://jomifred.github.io/) and [Rafael H. Bordini](https://www.inf.pucrs.br/r.bordini/), based on previous work done with many colleagues, in particular Michael Fisher, Joyce Martins, Álvaro Moreira, Renata Vieira, Willem Visser, Mike Wooldridge, but also many others.
+_**Jason**_ is developed by [Jomi F. Hübner](https://jomifred.github.io/){:target="_blank"} and [Rafael H. Bordini](https://www.inf.pucrs.br/r.bordini/){:target="_blank"}, based on previous work done with many colleagues, in particular Michael Fisher, Joyce Martins, Álvaro Moreira, Renata Vieira, Willem Visser, Mike Wooldridge, but also many others.
