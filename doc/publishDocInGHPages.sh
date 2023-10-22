@@ -12,7 +12,7 @@ cd ../jason-pages
 git add api
 git commit -a -m "add javadoc api"
 
-find doc -name readme.html -execdir cp readme.html index.html \;
+#find doc -name readme.html -execdir cp readme.html index.html \;
 git add doc
 git commit -a -m "add jason github doc folder"
 
