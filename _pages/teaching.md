@@ -1,6 +1,6 @@
 ---
 title: "Teaching"
-layout: splashss
+layout: splash
 permalink: /teaching/
 ---
 
