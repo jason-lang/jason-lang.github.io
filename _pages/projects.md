@@ -10,7 +10,7 @@ These are some of the current or past projects contributing, extending, or using
 
 *   Inspired by AgentSpeak(L) and _**Jason**_, [LightJason](https://lightjason.org/){:target="_blank"} is a concurrent BDI multi-agent framework for creating multi-agent systems with Java.
 *   Using _**Jason**_ and CArtAgO for distributed control of electric power grids.
-*   Multi-agent computational models of dynamic systems for learning, simulation and control, using _**Jason**_. See this [paper](https://link.springer.com/chapter/10.1007%2F978-3-319-48829-5_3{:target="_blank"}.
+*   Multi-agent computational models of dynamic systems for learning, simulation and control, using _**Jason**_. See this [paper](https://link.springer.com/chapter/10.1007%2F978-3-319-48829-5_3){:target="_blank"}.
 *   [JaCaDDM](https://sourceforge.net/projects/jacaddm/){:target="_blank"} is an agent-based Distributed Data Mining system founded on the Agents and Artifacts paradigm, conceived to design, implement, deploy, and evaluate distributed learning strategies.
 *   [MUSA](http://aose.pa.icar.cnr.it/MUSA/){:target="_blank"} is a middleware for user-driven service adaptation, implemented in _**Jason**_.
 *   A framework that can be used to deploy multiple concurrent _**Jason**_ agents in complex Second Life simulations is described in this [paper](https://ourarchive.otago.ac.nz/bitstream/handle/10523/869/dp2011-03.pdf){:target="_blank"}.
