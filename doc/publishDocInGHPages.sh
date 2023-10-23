@@ -5,6 +5,8 @@ cd ..
 rm -rf ../jason-pages/api
 rm -rf ../jason-pages/doc
 
+asciidoctor -a stylesheet=adoc-empty.css readme.adoc -o index.html
+
 cp -R jason-interpreter/build/docs/javadoc ../jason-pages/api
 cp -R doc ../jason-pages
 
