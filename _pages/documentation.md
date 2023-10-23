@@ -6,6 +6,8 @@ permalink: /doc/
 
 ## Documentation
 
+Just testing
+
 <html>
 <script>
 function includeHTML() {
