@@ -11,11 +11,13 @@ _**Jason**_ is an interpreter for an extended version of AgentSpeak. It implemen
 
 
 ## Download
-Download the latest version of _**Jason**_ from [Github](https://github.com/jason-lang/jason/releases){:target="_blank"}. Older versions or _**Jason**_ are available on [SourceForge](https://sourceforge.net/projects/jason){:target="_blank"}.
+Download the latest version of _**Jason**_ from [Github](https://github.com/jason-lang/jason/releases){:target="_blank"}. Older versions of _**Jason**_ are available on [SourceForge](https://sourceforge.net/projects/jason){:target="_blank"}.
 
 
-## API and FAQ
-Check the [API](/api/){:target="_blank"} and the [FAQ](/doc/faq){:target="_blank"} for more details about _**Jason**_.
+## Resources
+Check out the Documentation page for more details about _**Jason**_,
+including examples and demos. Two particularly useful resources are
+the [API documentation](/api/){:target="_blank"} and the [FAQ](/doc/faq){:target="_blank"}.
 
 
 ## Book
