@@ -4,6 +4,8 @@ layout: splash
 permalink: /projects/
 ---
 
+## Projects
+
 These are some of the current or past projects contributing, extending, or using _**Jason**_. If you know of other projects related to _**Jason**_ in any way, please [let us know](mailto:jason.developers@gmail.com?subject=Jason%20Website:%20projects%20using%20Jason).
 
 *   Inspired by AgentSpeak(L) and _**Jason**_, [LightJason](https://lightjason.org/){:target="_blank"} is a concurrent BDI multi-agent framework for creating multi-agent systems with Java.
