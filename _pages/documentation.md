@@ -4,7 +4,7 @@ layout: splash
 permalink: /doc/
 ---
 
-##
+## Documentation
 
 <html>
 <script>
