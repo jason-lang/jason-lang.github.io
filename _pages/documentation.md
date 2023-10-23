@@ -1,6 +1,6 @@
 ---
-title: "Documentation"
-layout: single
+title: ""
+layout: splash
 permalink: /doc/
 ---
 
