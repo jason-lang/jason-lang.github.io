@@ -37,7 +37,7 @@ function includeHTML() {
 
 <body>
 
-<div w3-include-html="https://jason-lang.github.io/jason/"></div> 
+<div w3-include-html="doc/index.html"></div> 
 
 </body>
 
