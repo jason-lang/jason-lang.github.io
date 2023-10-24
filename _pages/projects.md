@@ -4,7 +4,7 @@ layout: splash
 permalink: /projects/
 ---
 
-## Projects
+# Projects
 
 These are some of the current or past projects contributing, extending, or using _**Jason**_. If you know of other projects related to _**Jason**_ in any way, please [let us know](mailto:jason.developers@gmail.com?subject=Jason%20Website:%20projects%20using%20Jason).
 
