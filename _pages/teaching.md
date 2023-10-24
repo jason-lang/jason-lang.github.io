@@ -4,7 +4,7 @@ layout: splash
 permalink: /teaching/
 ---
 
-## Teaching
+# Teaching
 
 These are some of the academic colleagues who use or have used
 _**Jason**_ for teaching (in some cases, _**Jason**_ is just one of
