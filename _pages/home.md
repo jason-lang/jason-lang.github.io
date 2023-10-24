@@ -5,7 +5,7 @@ permalink: /
 header:
    image: /assets/images/headerArial1.jpg
 ---
-## About _**Jason**_
+# About _**Jason**_
 
 _**Jason**_ is an interpreter for an extended version of AgentSpeak. It implements the operational semantics of that language, and provides a platform for the development of multi-agent systems, with many user-customisable features. _**Jason**_ is available Open Source, and is distributed under GNU LGPL. 
 
