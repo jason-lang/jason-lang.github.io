@@ -47,7 +47,7 @@ also was quite important in the Agents literature. The language
 interpreted by _**Jason**_ is an extension of the abstract programming
 language called AgentSpeak(L), originally created by Anand Rao (see
 the original paper
-[here](https://link.springer.com/chapter/10.1007/BFb0031845)). Another
+[here](https://link.springer.com/chapter/10.1007/BFb0031845){:target="_blank"}). Another
 important characteristic of _**Jason**_ in comparison with other BDI agent
 systems is that it is implemented in Java (thus multi-platform) and is
 available Open Source, distributed under GNU LGPL.
@@ -62,8 +62,8 @@ Besides interpreting the original AgentSpeak language, _**Jason**_ also features
 * support for developing Environments (which are not normally to be programmed in AgentSpeak; in this case they are programmed in Java);
 * support for MAS organisations and agents that reason about them,
 using the Moise+ model, and environments using CArtAgO - see the
-[JaCaMo website](https://jacamo-lang.github.io) for that;
-* the possibility to run a multi-agent system distributed over a network (using [JADE](https://jade.tilab.com)); other distribution infrastructures can be added by the user;
+[JaCaMo website](https://jacamo-lang.github.io){:target="_blank"} for that;
+* the possibility to run a multi-agent system distributed over a network (using [JADE](https://jade.tilab.com){:target="_blank"}); other distribution infrastructures can be added by the user;
 * fully customisable (in Java) selection functions, trust functions, and overall agent architecture (perception, belief-revision, inter-agent communication, and acting);
 * a library of essential “internal actions”;
 * straightforward extensibility by user-defined internal actions, which are programmed in Java;
