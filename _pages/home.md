@@ -67,4 +67,4 @@ using the Moise+ model, and environments using CArtAgO - see the
 * fully customisable (in Java) selection functions, trust functions, and overall agent architecture (perception, belief-revision, inter-agent communication, and acting);
 * a library of essential “internal actions”;
 * straightforward extensibility by user-defined internal actions, which are programmed in Java;
-* a “mind inspector” that helps debugging.
+* various ways of developing and running code include IDEs and a “mind inspector” that helps debugging.
