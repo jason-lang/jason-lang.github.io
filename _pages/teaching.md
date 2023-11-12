@@ -62,6 +62,7 @@ post-graduate course, please
 * **Canada**
 	- Fuhua (Oscar) Lin, Athabasca University
 	- Jernej Polajnar, University of Northern British Columbia
+	- Babak Esfandiari, Carleton University
 
 * **Australia**
 	- John Thangarajah, RMIT Univeristy

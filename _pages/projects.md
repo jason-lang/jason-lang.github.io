@@ -41,3 +41,9 @@ These are some of the current or past projects contributing, extending, or using
 *   There is an interface between _**Jason**_ and Cartago, available [here](http://alice.unibo.it/xwiki/bin/view/CARTAGO/C4Jason "http://alice.unibo.it/xwiki/bin/view/CARTAGO/C4Jason"){:target="_blank"}.
 *   J-Moise allows _**Jason**_ agents to use [Moise+](http://sourceforge.net/projects/moise "http://sourceforge.net/projects/moise"){:target="_blank"} organisations (available with the _**Jason**_ distribution).
 *   In a _**Jason**_ customisation, the concept of _graded beliefs_ is used to make it possible for agents to handle uncertainty in reasoning and belief revision. More details are available [here](https://www.researchgate.net/publication/347963965_Graded_Belief_Revision_for_Jason_A_Rule-Based_Approach){:target="_blank"}.
+* An interface between _**Jason**_ and AirSim was developed by Nick Jhames, available [here](https://github.com/NickyJhamesPUCRS/AirSimWithJaCaMo){:target="_blank"}.
+* Débora Engelmann and colleagues have developed:
+   - [MAIDS](https://github.com/smart-pucrs/bed-allocation-system) {:target="_blank"}, a framework for multi-agent intentional dialogues
+   - [Dial4JaCa](https://github.com/smart-pucrs/Dial4JaCa) {:target="_blank"}, and interface between _**Jason**_ and Dialogflow
+   - [Onto4JaCa](https://github.com/DeboraEngelmann/Onto4JaCa) {:target="_blank"}, which supports the use on Ontologies in _**Jason**_
+   - [RV4JaCa](https://github.com/DeboraEngelmann/RV4JaCa) {:target="_blank"}, a framework for run-time verification of _**Jason**_ systems
