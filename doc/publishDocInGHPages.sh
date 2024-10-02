@@ -9,7 +9,7 @@ rm -rf $SITE_PATH/doc
 
 #asciidoctor -a stylesheet=adoc-empty.css readme.adoc -o doc.html
 IMAGE=jomifred/adoc
-docker run --rm -i --user="$(id -u):$(id -g)" --net=none -v "$PWD":/app "$IMAGE" asciidoctor -r /pygments_init.rb -a stylesheet=adoc-empty.css readme.adoc -o doc.html
+docker run --rm -i --user="$(id -u):$(id -g)" --net=none -v "$PWD":/app "$IMAGE" asciidoctor -r /pygments_init.rb -a stylesheet=adoc-empty.css readme.adoc -o doc/doc.html
 
 cp -R jason-interpreter/build/docs/javadoc $SITE_PATH/api
 cp -R doc $SITE_PATH
