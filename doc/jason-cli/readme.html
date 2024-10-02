@@ -468,19 +468,19 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <p>Install <a href="https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html">Java 17</a></p>
 </li>
 <li>
-<p>Install <a href="https://code.visualstudio.com/download">Visual Sudio Code</a> for an IDE</p>
+<p>Install <a href="https://code.visualstudio.com/download">Visual Sudio Code</a></p>
 </li>
 <li>
 <p>[windows] Install a terminal &amp; shell tool like <a href="https://gitforwindows.org/">GitBash</a></p>
 </li>
 <li>
-<p>Install Jason.</p>
+<p>Install Jason:</p>
 <div class="dlist">
 <dl>
 <dt class="hdlist1">Unix and Windows</dt>
 <dd>
 <div class="paragraph">
-<p>Download a Jason release from <a href="https://github.com/jason-lang/jason/releases">here</a> (download the file named <code>jason-bin-&#8230;&#8203;..zip</code>) and decompress it. The zip file contains documentation, examples, and a subdirectory <code>bin</code> with the file <strong><code>jason</code></strong>. It is a unix executable file, if not, change its properties with <code>chmod +x jason</code>. Finally, <a href="https://www.computerhope.com/issues/ch000549.htm">adds the directory <code>bin</code> in your machine <code>PATH</code></a> so that the command <code>jason</code> can be executed in a terminal.</p>
+<p>Download a Jason release from <a href="https://github.com/jason-lang/jason/releases">here</a> (download the file named <code>jason-bin-&#8230;&#8203;..zip</code>) and decompress it. The zip file contains documentation, examples, and a sub-directory <code>bin</code> with the file <strong><code>jason</code></strong>. It is a unix executable file, if not, change its properties with <code>chmod +x jason</code>. Finally, <a href="https://www.computerhope.com/issues/ch000549.htm">adds the directory <code>bin</code> in your machine <code>PATH</code></a> so that the command <code>jason</code> can be executed in a terminal.</p>
 </div>
 </dd>
 <dt class="hdlist1">Linux</dt>
@@ -507,9 +507,6 @@ sudo apt install jason-cli</pre>
 <pre>Jason CLI 3.2</pre>
 </div>
 </div>
-<div class="paragraph">
-<p>(You may need to close and open VSCode again to have Jason in its <code>PATH</code> terminal)</p>
-</div>
 <div class="sect1">
 <h2 id="_create_applications">Create Applications</h2>
 <div class="sectionbody">
@@ -530,6 +527,14 @@ jason app1.mas2j</code></pre>
 <div class="content">
 <pre class="highlight"><code>[bob] hello world.
 [alice] hello world.</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>This approach uses Gradle to execute the application. Gradle is useful if you are using other packages. However, it you do not have dependencies, the application can be started faster without Gradle:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code>jason mas start --mas2j=app1.mas2j</code></pre>
 </div>
 </div>
 <div class="paragraph">
@@ -560,8 +565,7 @@ jason app1.mas2j</code></pre>
 <p>and then run it with <code>./gradlew run</code>.</p>
 </div>
 <div class="paragraph">
-<p>More details and commands with (or <a href="./commands.html">here</a>)
-:</p>
+<p>More details and commands with (or <a href="./commands.html">here</a>):</p>
 </div>
 <div class="listingblock">
 <div class="content">
@@ -761,7 +765,7 @@ beliefs of Bob:
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2024-02-21 17:50:28 UTC
+Last updated 2024-10-02 19:48:23 UTC
 </div>
 </div>
 </body>
