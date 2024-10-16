@@ -485,6 +485,7 @@ commands to handle applications
 Commands:
   create      creates the files of a new application
   compile     compiles the java classes of an application (using Gradle)
+              and produces a jar file with all necessary to run the application
   add-agent   adds the code of a new agent into the application
   add-gradle  adds a Gradle script for the application
   add-ia      adds the source code a new internal action into the application</code></pre>
@@ -518,12 +519,15 @@ starts a new (empty) MAS
       [&lt;mas name&gt;]   MAS unique identification
       --console      output will be sent to the console instead of a GUI
       --no-net       disable all net services (mind inspector, runtime
-                     services, Mbeans, ...
+                     services, Mbeans, ...)
       --mas2j=&lt;file&gt; runs jason project without
                      gradle (offline), java classes should be compiled
-                     before running.
-      --cp=&lt;classpath&gt;    directories where java classes can be found (for
-                     environment implementation, for instance)</code></pre>
+                     before running
+      --use-gradle   executes the MAS defined in a mas2j file using gradle
+      --cp=&lt;classpath&gt; directories where java classes can be found (for
+                     environment implementation, for instance)
+      --env=&lt;env class&gt; class that implements the environment and its
+                     arguments</code></pre>
 </div>
 </div>
 <div class="paragraph">
@@ -580,16 +584,20 @@ Commands:
 <h3 id="_agent_start">Agent start</h3>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight"><code>Usage: jason agent start [--instances=&lt;instances&gt;] [--mas-name=&lt;mas name&gt;]
-                         [--source=&lt;source file&gt;] &lt;agent name&gt;
+<pre class="highlight"><code>Usage: jason agent start &lt;agent name&gt;
 starts a new (empty) agent
+
       &lt;agent name&gt;   agent unique identification
       --instances=&lt;instances&gt;
                      how many agents should be created
       --mas-name=&lt;mas name&gt;
                      MAS unique identification
       --source=&lt;source file&gt;
-                     file (or URL) for the source code of the agent.</code></pre>
+                     file (or URL) for the source code of the agent
+      --ag-class=&lt;java class&gt;
+                     agent class customization
+      --ag-arch=&lt;java class&gt;
+                     agent architecture customization</code></pre>
 </div>
 </div>
 <div class="paragraph">
@@ -598,6 +606,14 @@ starts a new (empty) agent
 <div class="listingblock">
 <div class="content">
 <pre class="highlight"><code>jason agent start bob { +!g &lt;- .print(ok). }</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Depending on your prompt shell, you should enclose the commands by "":</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code>jason agent start bob " { +!g &lt;- .print(ok). } "</code></pre>
 </div>
 </div>
 </div>
@@ -612,7 +628,7 @@ starts a new (empty) agent
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2024-10-02 19:39:48 UTC
+Last updated 2024-10-16 19:21:14 UTC
 </div>
 </div>
 </body>

@@ -442,6 +442,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div id="toc" class="toc2">
 <div id="toctitle">Table of Contents</div>
 <ul class="sectlevel1">
+<li><a href="#_version_3_3">version 3.3</a></li>
 <li><a href="#_version_3_2_2023_04_15">version 3.2 (2023-04-15)</a></li>
 <li><a href="#_version_3_1_2022_03_23">version 3.1 (2022-03-23)</a></li>
 <li><a href="#_version_3_0_2021_09_07">version 3.0 (2021-09-07)</a></li>
@@ -494,6 +495,46 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 <div id="content">
 <div class="sect1">
+<h2 id="_version_3_3">version 3.3</h2>
+<div class="sectionbody">
+<div class="ulist">
+<ul>
+<li>
+<p>Java 21 is used</p>
+</li>
+<li>
+<p>Agent&#8217;s thread is Virtual and not Platform. It allow us to run thousands of agents.</p>
+</li>
+<li>
+<p>namespaces may have assigned properties/values. See internal actions <code>.namespace_set_property</code> and  <code>.namespace_get_property</code>.</p>
+</li>
+<li>
+<p>internal actions <code>.min</code> and <code>.max</code> may have a query as second argument.</p>
+</li>
+<li>
+<p>several (minor) improvements in Jason-CLI. About running a project:</p>
+<div class="ulist">
+<ul>
+<li>
+<p><code>jason x.mas2h</code> uses gradle to run the application</p>
+</li>
+<li>
+<p><code>jason mas start --mas2j=x.mas2h</code> runs without gradle. The classpath might be informed using <code>--cp</code> if necessary.</p>
+</li>
+<li>
+<p><code>jason app compile</code> uses shadowJar to create a jar file with all files and dependencies to run the application.</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>update doc for new Jason web site: <a href="https://jason-lang.github.io" class="bare">https://jason-lang.github.io</a></p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
 <h2 id="_version_3_2_2023_04_15">version 3.2 (2023-04-15)</h2>
 <div class="sectionbody">
 <div class="paragraph">
@@ -522,7 +563,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </ul>
 </div>
 <div class="paragraph">
-<p>The project is cleaned a bit:</p>
+<p>The project is cleaned:</p>
 </div>
 <div class="ulist">
 <ul>
@@ -3606,7 +3647,7 @@ works for Saci and Centralised.</p>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2024-10-02 19:39:48 UTC
+Last updated 2024-10-16 19:24:11 UTC
 </div>
 </div>
 </body>

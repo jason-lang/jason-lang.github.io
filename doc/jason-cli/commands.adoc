@@ -18,6 +18,7 @@ commands to handle applications
 Commands:
   create      creates the files of a new application
   compile     compiles the java classes of an application (using Gradle)
+              and produces a jar file with all necessary to run the application
   add-agent   adds the code of a new agent into the application
   add-gradle  adds a Gradle script for the application
   add-ia      adds the source code a new internal action into the application
@@ -46,13 +47,15 @@ starts a new (empty) MAS
       [<mas name>]   MAS unique identification
       --console      output will be sent to the console instead of a GUI
       --no-net       disable all net services (mind inspector, runtime
-                     services, Mbeans, ...
+                     services, Mbeans, ...)
       --mas2j=<file> runs jason project without
                      gradle (offline), java classes should be compiled
-                     before running.
-      --cp=<classpath>    directories where java classes can be found (for
+                     before running
+      --use-gradle   executes the MAS defined in a mas2j file using gradle
+      --cp=<classpath> directories where java classes can be found (for
                      environment implementation, for instance)
-
+      --env=<env class> class that implements the environment and its
+                     arguments                     
 ```
 
 Regarding `.mas2j` files, they can be executed in two ways:
@@ -96,22 +99,32 @@ Commands:
 ### Agent start
 
 ```
-Usage: jason agent start [--instances=<instances>] [--mas-name=<mas name>]
-                         [--source=<source file>] <agent name>
+Usage: jason agent start <agent name>
 starts a new (empty) agent
+
       <agent name>   agent unique identification
       --instances=<instances>
                      how many agents should be created
       --mas-name=<mas name>
                      MAS unique identification
       --source=<source file>
-                     file (or URL) for the source code of the agent.
+                     file (or URL) for the source code of the agent
+      --ag-class=<java class>
+                     agent class customization         
+      --ag-arch=<java class>
+                     agent architecture customization 
 ```
 
 The source code can be informed at the  end of the command enclosed by `{` and `}`. For instance:
 
 ```
 jason agent start bob { +!g <- .print(ok). }
+```
+
+Depending on your prompt shell, you should enclose the commands by "":
+
+```
+jason agent start bob " { +!g <- .print(ok). } "
 ```
 
 ### Other agent commands
