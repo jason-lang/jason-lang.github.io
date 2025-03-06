@@ -409,6 +409,8 @@ loadScripts(document, 'script');</script>
 <dd>
 <div class="block">includes all initial goals in the agent reasoner</div>
 </dd>
+<dt><a href="jason/asSyntax/ASSyntax.html#addKeyword(jason.asSyntax.PredicateIndicator)" class="member-name-link">addKeyword(PredicateIndicator)</a> - Static method in class jason.asSyntax.<a href="jason/asSyntax/ASSyntax.html" title="class in jason.asSyntax">ASSyntax</a></dt>
+<dd>&nbsp;</dd>
 <dt><a href="jason/pl/PlanLibrary.html#addListener(jason.pl.PlanLibraryListener)" class="member-name-link">addListener(PlanLibraryListener)</a> - Method in class jason.pl.<a href="jason/pl/PlanLibrary.html" title="class in jason.pl">PlanLibrary</a></dt>
 <dd>&nbsp;</dd>
 <dt><a href="jason/infra/local/LocalAgArchAsynchronous.html#addListenerToC(jason.asSemantics.CircumstanceListener)" class="member-name-link">addListenerToC(CircumstanceListener)</a> - Method in class jason.infra.local.<a href="jason/infra/local/LocalAgArchAsynchronous.html" title="class in jason.infra.local">LocalAgArchAsynchronous</a></dt>
@@ -817,6 +819,12 @@ loadScripts(document, 'script');</script>
 <dt><a href="jason/stdlib/assertz.html#%3Cinit%3E()" class="member-name-link">assertz()</a> - Constructor for class jason.stdlib.<a href="jason/stdlib/assertz.html" title="class in jason.stdlib">assertz</a></dt>
 <dd>&nbsp;</dd>
 <dt><a href="jason/mas2j/AgentParameters.html#asSource" class="member-name-link">asSource</a> - Variable in class jason.mas2j.<a href="jason/mas2j/AgentParameters.html" title="class in jason.mas2j">AgentParameters</a></dt>
+<dd>&nbsp;</dd>
+<dt><a href="jason/asSyntax/ASSyntax.html" class="type-name-link" title="class in jason.asSyntax">ASSyntax</a> - Class in <a href="jason/asSyntax/package-summary.html">jason.asSyntax</a></dt>
+<dd>
+<div class="block">Factory for objects used in Jason AgentSpeak syntax.</div>
+</dd>
+<dt><a href="jason/asSyntax/ASSyntax.html#%3Cinit%3E()" class="member-name-link">ASSyntax()</a> - Constructor for class jason.asSyntax.<a href="jason/asSyntax/ASSyntax.html" title="class in jason.asSyntax">ASSyntax</a></dt>
 <dd>&nbsp;</dd>
 <dt><a href="jason/infra/local/RConf.html#ASYNCH" class="member-name-link">ASYNCH</a> - Enum constant in enum class jason.infra.local.<a href="jason/infra/local/RConf.html" title="enum class in jason.infra.local">RConf</a></dt>
 <dd>&nbsp;</dd>
@@ -2118,6 +2126,10 @@ loadScripts(document, 'script');</script>
 <div class="block">Creates the user agent architecture, default architecture is
  jason.architecture.AgArch.</div>
 </dd>
+<dt><a href="jason/asSyntax/ASSyntax.html#createAtom(java.lang.String)" class="member-name-link">createAtom(String)</a> - Static method in class jason.asSyntax.<a href="jason/asSyntax/ASSyntax.html" title="class in jason.asSyntax">ASSyntax</a></dt>
+<dd>
+<div class="block">creates a new Atom term (an atom is a structure with 0-arity)</div>
+</dd>
 <dt><a href="jason/JasonException.html#createBasicErrorAnnots(jason.asSyntax.Term,java.lang.String)" class="member-name-link">createBasicErrorAnnots(Term, String)</a> - Static method in exception class jason.<a href="jason/JasonException.html" title="class in jason">JasonException</a></dt>
 <dd>&nbsp;</dd>
 <dt><a href="jason/JasonException.html#createBasicErrorAnnots(java.lang.String,java.lang.String)" class="member-name-link">createBasicErrorAnnots(String, String)</a> - Static method in exception class jason.<a href="jason/JasonException.html" title="class in jason">JasonException</a></dt>
@@ -2144,19 +2156,83 @@ loadScripts(document, 'script');</script>
 <dd>&nbsp;</dd>
 <dt><a href="jason/infra/local/BaseDialogGUI.html#createField(java.lang.String,javax.swing.JComponent,javax.swing.JComponent,java.lang.String)" class="member-name-link">createField(String, JComponent, JComponent, String)</a> - Method in class jason.infra.local.<a href="jason/infra/local/BaseDialogGUI.html" title="class in jason.infra.local">BaseDialogGUI</a></dt>
 <dd>&nbsp;</dd>
+<dt><a href="jason/asSyntax/ASSyntax.html#createList(jason.asSyntax.Term...)" class="member-name-link">createList(Term...)</a> - Static method in class jason.asSyntax.<a href="jason/asSyntax/ASSyntax.html" title="class in jason.asSyntax">ASSyntax</a></dt>
+<dd>
+<div class="block">Creates a new list with n elements, n can be 0</div>
+</dd>
+<dt><a href="jason/asSyntax/ASSyntax.html#createList(java.util.Collection)" class="member-name-link">createList(Collection&lt;Term&gt;)</a> - Static method in class jason.asSyntax.<a href="jason/asSyntax/ASSyntax.html" title="class in jason.asSyntax">ASSyntax</a></dt>
+<dd>
+<div class="block">Creates a new list from a collection of terms (each element of the collection is cloned)</div>
+</dd>
+<dt><a href="jason/asSyntax/ASSyntax.html#createLiteral(boolean,java.lang.String,jason.asSyntax.Term...)" class="member-name-link">createLiteral(boolean, String, Term...)</a> - Static method in class jason.asSyntax.<a href="jason/asSyntax/ASSyntax.html" title="class in jason.asSyntax">ASSyntax</a></dt>
+<dd>
+<div class="block">Creates a new literal, the first argument is either Literal.LPos or Literal.LNeg,
+ the second is the functor (a string),
+ and the n remainder arguments are terms.</div>
+</dd>
+<dt><a href="jason/asSyntax/ASSyntax.html#createLiteral(jason.asSyntax.Atom,boolean,java.lang.String,jason.asSyntax.Term...)" class="member-name-link">createLiteral(Atom, boolean, String, Term...)</a> - Static method in class jason.asSyntax.<a href="jason/asSyntax/ASSyntax.html" title="class in jason.asSyntax">ASSyntax</a></dt>
+<dd>
+<div class="block">Creates a new literal, the first argument is the namespace, the second is either Literal.LPos or Literal.LNeg,
+ the third is the functor (a string),
+ and the n remainder arguments are terms.</div>
+</dd>
+<dt><a href="jason/asSyntax/ASSyntax.html#createLiteral(jason.asSyntax.Atom,java.lang.String,jason.asSyntax.Term...)" class="member-name-link">createLiteral(Atom, String, Term...)</a> - Static method in class jason.asSyntax.<a href="jason/asSyntax/ASSyntax.html" title="class in jason.asSyntax">ASSyntax</a></dt>
+<dd>&nbsp;</dd>
+<dt><a href="jason/asSyntax/ASSyntax.html#createLiteral(java.lang.String,jason.asSyntax.Term...)" class="member-name-link">createLiteral(String, Term...)</a> - Static method in class jason.asSyntax.<a href="jason/asSyntax/ASSyntax.html" title="class in jason.asSyntax">ASSyntax</a></dt>
+<dd>
+<div class="block">Creates a new positive literal, the first argument is the functor (a string)
+ and the n remainder arguments are terms.</div>
+</dd>
 <dt><a href="jason/infra/local/RunLocalMAS.html#createNewReplAgButton()" class="member-name-link">createNewReplAgButton()</a> - Method in class jason.infra.local.<a href="jason/infra/local/RunLocalMAS.html" title="class in jason.infra.local">RunLocalMAS</a></dt>
 <dd>&nbsp;</dd>
+<dt><a href="jason/asSyntax/ASSyntax.html#createNumber(double)" class="member-name-link">createNumber(double)</a> - Static method in class jason.asSyntax.<a href="jason/asSyntax/ASSyntax.html" title="class in jason.asSyntax">ASSyntax</a></dt>
+<dd>
+<div class="block">creates a new number term</div>
+</dd>
 <dt><a href="jason/infra/local/RunLocalMAS.html#createPauseButton()" class="member-name-link">createPauseButton()</a> - Method in class jason.infra.local.<a href="jason/infra/local/RunLocalMAS.html" title="class in jason.infra.local">RunLocalMAS</a></dt>
 <dd>&nbsp;</dd>
 <dt><a href="jason/stdlib/queue/create.html#createQueue(jason.asSemantics.Unifier,jason.asSyntax.Term%5B%5D)" class="member-name-link">createQueue(Unifier, Term[])</a> - Method in class jason.stdlib.queue.<a href="jason/stdlib/queue/create.html" title="class in jason.stdlib.queue">create</a></dt>
 <dd>&nbsp;</dd>
+<dt><a href="jason/asSyntax/ASSyntax.html#createRule(jason.asSyntax.Literal,jason.asSyntax.LogicalFormula)" class="member-name-link">createRule(Literal, LogicalFormula)</a> - Static method in class jason.asSyntax.<a href="jason/asSyntax/ASSyntax.html" title="class in jason.asSyntax">ASSyntax</a></dt>
+<dd>
+<div class="block">Creates a new rule with a head and a body</div>
+</dd>
 <dt><a href="jason/asSyntax/Pred.html#createSource(jason.asSyntax.Term)" class="member-name-link">createSource(Term)</a> - Static method in class jason.asSyntax.<a href="jason/asSyntax/Pred.html" title="class in jason.asSyntax">Pred</a></dt>
 <dd>&nbsp;</dd>
 <dt><a href="jason/infra/local/RunLocalMAS.html#createStopButton()" class="member-name-link">createStopButton()</a> - Method in class jason.infra.local.<a href="jason/infra/local/RunLocalMAS.html" title="class in jason.infra.local">RunLocalMAS</a></dt>
 <dd>&nbsp;</dd>
+<dt><a href="jason/asSyntax/ASSyntax.html#createString(java.lang.Object)" class="member-name-link">createString(Object)</a> - Static method in class jason.asSyntax.<a href="jason/asSyntax/ASSyntax.html" title="class in jason.asSyntax">ASSyntax</a></dt>
+<dd>
+<div class="block">creates a new string term using .toString() of the parameter</div>
+</dd>
+<dt><a href="jason/asSyntax/ASSyntax.html#createString(java.lang.String)" class="member-name-link">createString(String)</a> - Static method in class jason.asSyntax.<a href="jason/asSyntax/ASSyntax.html" title="class in jason.asSyntax">ASSyntax</a></dt>
+<dd>
+<div class="block">creates a new string term</div>
+</dd>
+<dt><a href="jason/asSyntax/ASSyntax.html#createStructure(java.lang.String,jason.asSyntax.Term...)" class="member-name-link">createStructure(String, Term...)</a> - Static method in class jason.asSyntax.<a href="jason/asSyntax/ASSyntax.html" title="class in jason.asSyntax">ASSyntax</a></dt>
+<dd>
+<div class="block">Creates a new structure (compound) term, the first argument is the functor (a string),
+ and the n remainder arguments are terms.</div>
+</dd>
 <dt><a href="jason/asSyntax/LogExpr.html#createUnifIterator(jason.asSemantics.Unifier...)" class="member-name-link">createUnifIterator(Unifier...)</a> - Static method in class jason.asSyntax.<a href="jason/asSyntax/LogExpr.html" title="class in jason.asSyntax">LogExpr</a></dt>
 <dd>
 <div class="block">creates an iterator for a list of unifiers</div>
+</dd>
+<dt><a href="jason/asSyntax/ASSyntax.html#createVar()" class="member-name-link">createVar()</a> - Static method in class jason.asSyntax.<a href="jason/asSyntax/ASSyntax.html" title="class in jason.asSyntax">ASSyntax</a></dt>
+<dd>
+<div class="block">creates a new anonymous (or unnamed) variable</div>
+</dd>
+<dt><a href="jason/asSyntax/ASSyntax.html#createVar(boolean,java.lang.String)" class="member-name-link">createVar(boolean, String)</a> - Static method in class jason.asSyntax.<a href="jason/asSyntax/ASSyntax.html" title="class in jason.asSyntax">ASSyntax</a></dt>
+<dd>
+<div class="block">creates a new variable term (possibly negated)</div>
+</dd>
+<dt><a href="jason/asSyntax/ASSyntax.html#createVar(jason.asSyntax.Atom,java.lang.String)" class="member-name-link">createVar(Atom, String)</a> - Static method in class jason.asSyntax.<a href="jason/asSyntax/ASSyntax.html" title="class in jason.asSyntax">ASSyntax</a></dt>
+<dd>
+<div class="block">creates a new variable term in a namespace</div>
+</dd>
+<dt><a href="jason/asSyntax/ASSyntax.html#createVar(java.lang.String)" class="member-name-link">createVar(String)</a> - Static method in class jason.asSyntax.<a href="jason/asSyntax/ASSyntax.html" title="class in jason.asSyntax">ASSyntax</a></dt>
+<dd>
+<div class="block">creates a new variable term</div>
 </dd>
 <dt><a href="jason/JasonException.html#createWrongArgument(jason.asSemantics.InternalAction,java.lang.String)" class="member-name-link">createWrongArgument(InternalAction, String)</a> - Static method in exception class jason.<a href="jason/JasonException.html" title="class in jason">JasonException</a></dt>
 <dd>&nbsp;</dd>
@@ -5264,6 +5340,8 @@ loadScripts(document, 'script');</script>
 </dl>
 <h2 class="title" id="I:H">H</h2>
 <dl class="index">
+<dt><a href="jason/asSyntax/ASSyntax.html#hardDeadLineStr" class="member-name-link">hardDeadLineStr</a> - Static variable in class jason.asSyntax.<a href="jason/asSyntax/ASSyntax.html" title="class in jason.asSyntax">ASSyntax</a></dt>
+<dd>&nbsp;</dd>
 <dt><a href="jason/asSyntax/Literal.html#hasAnnot()" class="member-name-link">hasAnnot()</a> - Method in class jason.asSyntax.<a href="jason/asSyntax/Literal.html" title="class in jason.asSyntax">Literal</a></dt>
 <dd>
 <div class="block">returns true if the pred has at least one annot</div>
@@ -5982,6 +6060,8 @@ loadScripts(document, 'script');</script>
 <dt><a href="jason/asSyntax/VarTerm.html#isInternalAction()" class="member-name-link">isInternalAction()</a> - Method in class jason.asSyntax.<a href="jason/asSyntax/VarTerm.html" title="class in jason.asSyntax">VarTerm</a></dt>
 <dd>&nbsp;</dd>
 <dt><a href="jason/mas2j/MAS2JProject.html#isJade()" class="member-name-link">isJade()</a> - Method in class jason.mas2j.<a href="jason/mas2j/MAS2JProject.html" title="class in jason.mas2j">MAS2JProject</a></dt>
+<dd>&nbsp;</dd>
+<dt><a href="jason/asSyntax/ASSyntax.html#isKeyword(jason.asSyntax.Literal)" class="member-name-link">isKeyword(Literal)</a> - Static method in class jason.asSyntax.<a href="jason/asSyntax/ASSyntax.html" title="class in jason.asSyntax">ASSyntax</a></dt>
 <dd>&nbsp;</dd>
 <dt><a href="jason/asSemantics/Message.html#isKnownPerformative()" class="member-name-link">isKnownPerformative()</a> - Method in class jason.asSemantics.<a href="jason/asSemantics/Message.html" title="class in jason.asSemantics">Message</a></dt>
 <dd>&nbsp;</dd>
@@ -7400,8 +7480,20 @@ loadScripts(document, 'script');</script>
 <dd>
 <div class="block">returns some LogicalFormula that can be evaluated</div>
 </dd>
+<dt><a href="jason/asSyntax/ASSyntax.html#parseFormula(java.lang.String)" class="member-name-link">parseFormula(String)</a> - Static method in class jason.asSyntax.<a href="jason/asSyntax/ASSyntax.html" title="class in jason.asSyntax">ASSyntax</a></dt>
+<dd>
+<div class="block">creates a new logical formula by parsing a string</div>
+</dd>
+<dt><a href="jason/asSyntax/ASSyntax.html#parseList(java.lang.String)" class="member-name-link">parseList(String)</a> - Static method in class jason.asSyntax.<a href="jason/asSyntax/ASSyntax.html" title="class in jason.asSyntax">ASSyntax</a></dt>
+<dd>
+<div class="block">creates a new list by parsing a string</div>
+</dd>
 <dt><a href="jason/asSyntax/ListTermImpl.html#parseList(java.lang.String)" class="member-name-link">parseList(String)</a> - Static method in class jason.asSyntax.<a href="jason/asSyntax/ListTermImpl.html" title="class in jason.asSyntax">ListTermImpl</a></dt>
 <dd>&nbsp;</dd>
+<dt><a href="jason/asSyntax/ASSyntax.html#parseLiteral(java.lang.String)" class="member-name-link">parseLiteral(String)</a> - Static method in class jason.asSyntax.<a href="jason/asSyntax/ASSyntax.html" title="class in jason.asSyntax">ASSyntax</a></dt>
+<dd>
+<div class="block">creates a new literal by parsing a string</div>
+</dd>
 <dt><a href="jason/asSyntax/Literal.html#parseLiteral(java.lang.String)" class="member-name-link">parseLiteral(String)</a> - Static method in class jason.asSyntax.<a href="jason/asSyntax/Literal.html" title="class in jason.asSyntax">Literal</a></dt>
 <dd>
 <div class="block">creates a new literal by parsing a string -- ASSyntax.parseLiteral or createLiteral are preferred.</div>
@@ -7411,15 +7503,47 @@ loadScripts(document, 'script');</script>
 <div class="block">Creates a new message object based on a string that
  follows the format of the toString of Message class.</div>
 </dd>
+<dt><a href="jason/asSyntax/ASSyntax.html#parseNumber(java.lang.String)" class="member-name-link">parseNumber(String)</a> - Static method in class jason.asSyntax.<a href="jason/asSyntax/ASSyntax.html" title="class in jason.asSyntax">ASSyntax</a></dt>
+<dd>
+<div class="block">creates a new number term by parsing a string</div>
+</dd>
 <dt><a href="jason/infra/jade/JadeAgArch.html#parseParameters()" class="member-name-link">parseParameters()</a> - Method in class jason.infra.jade.<a href="jason/infra/jade/JadeAgArch.html" title="class in jason.infra.jade">JadeAgArch</a></dt>
 <dd>&nbsp;</dd>
+<dt><a href="jason/asSyntax/ASSyntax.html#parsePlan(java.lang.String)" class="member-name-link">parsePlan(String)</a> - Static method in class jason.asSyntax.<a href="jason/asSyntax/ASSyntax.html" title="class in jason.asSyntax">ASSyntax</a></dt>
+<dd>
+<div class="block">creates a new plan by parsing a string</div>
+</dd>
+<dt><a href="jason/asSyntax/ASSyntax.html#parsePlanBody(java.lang.String)" class="member-name-link">parsePlanBody(String)</a> - Static method in class jason.asSyntax.<a href="jason/asSyntax/ASSyntax.html" title="class in jason.asSyntax">ASSyntax</a></dt>
+<dd>
+<div class="block">creates a new plan body by parsing a string</div>
+</dd>
 <dt><a href="jason/asSyntax/Pred.html#parsePred(java.lang.String)" class="member-name-link">parsePred(String)</a> - Static method in class jason.asSyntax.<a href="jason/asSyntax/Pred.html" title="class in jason.asSyntax">Pred</a></dt>
 <dd>&nbsp;</dd>
+<dt><a href="jason/asSyntax/ASSyntax.html#parseRule(java.lang.String)" class="member-name-link">parseRule(String)</a> - Static method in class jason.asSyntax.<a href="jason/asSyntax/ASSyntax.html" title="class in jason.asSyntax">ASSyntax</a></dt>
+<dd>
+<div class="block">creates a new rule by parsing a string</div>
+</dd>
 <dt><a href="jason/asSyntax/StringTermImpl.html#parseString(java.lang.String)" class="member-name-link">parseString(String)</a> - Static method in class jason.asSyntax.<a href="jason/asSyntax/StringTermImpl.html" title="class in jason.asSyntax">StringTermImpl</a></dt>
 <dd>&nbsp;</dd>
+<dt><a href="jason/asSyntax/ASSyntax.html#parseStructure(java.lang.String)" class="member-name-link">parseStructure(String)</a> - Static method in class jason.asSyntax.<a href="jason/asSyntax/ASSyntax.html" title="class in jason.asSyntax">ASSyntax</a></dt>
+<dd>
+<div class="block">creates a new structure (a kind of term) by parsing a string</div>
+</dd>
+<dt><a href="jason/asSyntax/ASSyntax.html#parseTerm(java.lang.String)" class="member-name-link">parseTerm(String)</a> - Static method in class jason.asSyntax.<a href="jason/asSyntax/ASSyntax.html" title="class in jason.asSyntax">ASSyntax</a></dt>
+<dd>
+<div class="block">creates a new term by parsing a string</div>
+</dd>
+<dt><a href="jason/asSyntax/ASSyntax.html#parseTrigger(java.lang.String)" class="member-name-link">parseTrigger(String)</a> - Static method in class jason.asSyntax.<a href="jason/asSyntax/ASSyntax.html" title="class in jason.asSyntax">ASSyntax</a></dt>
+<dd>
+<div class="block">creates a new trigger by parsing a string</div>
+</dd>
 <dt><a href="jason/asSyntax/Trigger.html#parseTrigger(java.lang.String)" class="member-name-link">parseTrigger(String)</a> - Static method in class jason.asSyntax.<a href="jason/asSyntax/Trigger.html" title="class in jason.asSyntax">Trigger</a></dt>
 <dd>
 <div class="block">prefer to use ASSyntax.parseTrigger</div>
+</dd>
+<dt><a href="jason/asSyntax/ASSyntax.html#parseVar(java.lang.String)" class="member-name-link">parseVar(String)</a> - Static method in class jason.asSyntax.<a href="jason/asSyntax/ASSyntax.html" title="class in jason.asSyntax">ASSyntax</a></dt>
+<dd>
+<div class="block">creates a new variable by parsing a string</div>
 </dd>
 <dt><a href="jason/asSyntax/VarTerm.html#parseVar(java.lang.String)" class="member-name-link">parseVar(String)</a> - Static method in class jason.asSyntax.<a href="jason/asSyntax/VarTerm.html" title="class in jason.asSyntax">VarTerm</a></dt>
 <dd>
@@ -9477,6 +9601,10 @@ loadScripts(document, 'script');</script>
 <dd>&nbsp;</dd>
 <dt><a href="jason/asSyntax/parser/as2j.html#terms()" class="member-name-link">terms()</a> - Method in class jason.asSyntax.parser.<a href="jason/asSyntax/parser/as2j.html" title="class in jason.asSyntax.parser">as2j</a></dt>
 <dd>&nbsp;</dd>
+<dt><a href="jason/asSyntax/ASSyntax.html#termToObject(jason.asSyntax.Term)" class="member-name-link">termToObject(Term)</a> - Static method in class jason.asSyntax.<a href="jason/asSyntax/ASSyntax.html" title="class in jason.asSyntax">ASSyntax</a></dt>
+<dd>
+<div class="block">Convert a Jason term into a Java Object</div>
+</dd>
 <dt><a href="jason/asSyntax/BodyLiteral.BodyType.html#test" class="member-name-link">test</a> - Enum constant in enum class jason.asSyntax.<a href="jason/asSyntax/BodyLiteral.BodyType.html" title="enum class in jason.asSyntax">BodyLiteral.BodyType</a></dt>
 <dd>
 <div class="deprecation-block"><span class="deprecated-label">Deprecated.</span></div>
