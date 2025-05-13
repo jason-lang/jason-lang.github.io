@@ -2973,6 +2973,10 @@ loadScripts(document, 'script');</script>
 <dt><a href="jason/functions/time.html#evaluate(jason.asSemantics.TransitionSystem,jason.asSyntax.Term%5B%5D)" class="member-name-link">evaluate(TransitionSystem, Term[])</a> - Method in class jason.functions.<a href="jason/functions/time.html" title="class in jason.functions">time</a></dt>
 <dd>&nbsp;</dd>
 <dt><a href="jason/asSemantics/Event.html" class="type-name-link" title="class in jason.asSemantics">Event</a> - Class in <a href="jason/asSemantics/package-summary.html">jason.asSemantics</a></dt>
+<dd>
+<div class="block">An Event is composed of a Trigger Literal and (optionally) the intention that produced the event.</div>
+</dd>
+<dt><a href="jason/asSemantics/Event.html#%3Cinit%3E(jason.asSyntax.Trigger)" class="member-name-link">Event(Trigger)</a> - Constructor for class jason.asSemantics.<a href="jason/asSemantics/Event.html" title="class in jason.asSemantics">Event</a></dt>
 <dd>&nbsp;</dd>
 <dt><a href="jason/asSemantics/Event.html#%3Cinit%3E(jason.asSyntax.Trigger,jason.asSemantics.Intention)" class="member-name-link">Event(Trigger, Intention)</a> - Constructor for class jason.asSemantics.<a href="jason/asSemantics/Event.html" title="class in jason.asSemantics">Event</a></dt>
 <dd>&nbsp;</dd>
@@ -4795,7 +4799,7 @@ loadScripts(document, 'script');</script>
 <dd>&nbsp;</dd>
 <dt><a href="jason/asSyntax/Literal.html#getNS()" class="member-name-link">getNS()</a> - Method in class jason.asSyntax.<a href="jason/asSyntax/Literal.html" title="class in jason.asSyntax">Literal</a></dt>
 <dd>
-<div class="block">returns the name spaceof this literal</div>
+<div class="block">returns the space name of this literal</div>
 </dd>
 <dt><a href="jason/asSyntax/parser/as2j.html#getNS()" class="member-name-link">getNS()</a> - Method in class jason.asSyntax.parser.<a href="jason/asSyntax/parser/as2j.html" title="class in jason.asSyntax.parser">as2j</a></dt>
 <dd>&nbsp;</dd>
@@ -7496,7 +7500,9 @@ loadScripts(document, 'script');</script>
 </dd>
 <dt><a href="jason/asSyntax/Literal.html#parseLiteral(java.lang.String)" class="member-name-link">parseLiteral(String)</a> - Static method in class jason.asSyntax.<a href="jason/asSyntax/Literal.html" title="class in jason.asSyntax">Literal</a></dt>
 <dd>
-<div class="block">creates a new literal by parsing a string -- ASSyntax.parseLiteral or createLiteral are preferred.</div>
+<div class="deprecation-block"><span class="deprecated-label">Deprecated.</span>
+<div class="deprecation-comment">ASSyntax.parseLiteral or createLiteral are preferred.</div>
+</div>
 </dd>
 <dt><a href="jason/asSemantics/Message.html#parseMsg(java.lang.String)" class="member-name-link">parseMsg(String)</a> - Static method in class jason.asSemantics.<a href="jason/asSemantics/Message.html" title="class in jason.asSemantics">Message</a></dt>
 <dd>
@@ -8145,7 +8151,9 @@ loadScripts(document, 'script');</script>
 <dt><a href="jason/stdlib/relevant_rules.html#%3Cinit%3E()" class="member-name-link">relevant_rules()</a> - Constructor for class jason.stdlib.<a href="jason/stdlib/relevant_rules.html" title="class in jason.stdlib">relevant_rules</a></dt>
 <dd>&nbsp;</dd>
 <dt><a href="jason/asSemantics/Agent.html#relevantPlans(jason.asSyntax.Trigger,jason.asSemantics.Event)" class="member-name-link">relevantPlans(Trigger, Event)</a> - Method in class jason.asSemantics.<a href="jason/asSemantics/Agent.html" title="class in jason.asSemantics">Agent</a></dt>
-<dd>&nbsp;</dd>
+<dd>
+<div class="block">Gets relevant plans for a trigger event (teP), usually from a plan library.</div>
+</dd>
 <dt><a href="jason/asSyntax/RelExpr.html" class="type-name-link" title="class in jason.asSyntax">RelExpr</a> - Class in <a href="jason/asSyntax/package-summary.html">jason.asSyntax</a></dt>
 <dd>
 <div class="block">Represents a relational expression like 10 &gt; 20.</div>

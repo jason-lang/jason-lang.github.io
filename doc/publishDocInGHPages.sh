@@ -1,6 +1,7 @@
 cd ..
 
 ./gradlew doc
+./gradlew javadoc
 
 SITE_PATH=../jason-lang.github.io
 
